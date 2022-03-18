@@ -1,0 +1,8 @@
+{
+  "short_name": "React Fortnite Shop",
+  "name": "React Fortnite Shop - Simple Portfolio Project",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
