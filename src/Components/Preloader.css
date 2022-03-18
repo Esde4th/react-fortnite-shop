@@ -1,0 +1,15 @@
+.loader {
+    width: 75px;
+    height: 75px;
+    border: 8px solid rgba(3, 123, 129, 0.5);
+    border-radius: 50%;
+    border-left-color: #037b81;
+    animation: loader 1.3s linear infinite;
+    margin: 3rem auto;
+}
+
+@keyframes loader {
+    100% {
+        transform: rotate(360deg);
+    }
+}

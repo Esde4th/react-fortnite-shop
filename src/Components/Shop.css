@@ -1,0 +1,100 @@
+.fill {
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.center {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.color-screen {
+    background-blend-mode: screen;
+    opacity: 0.2;
+}
+
+.turk {
+    background-color: #037b81;
+}
+
+.gray {
+    background-color: #1e2020;
+}
+
+.full-section {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.center h1,
+.center h3 {
+    text-align: center;
+    color: #037b81;
+}
+
+.content {
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    max-width: 1170px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translateX(-50%);
+    height: 100%;
+    position: absolute;
+}
+
+.full-section .content .content-01 h1 {
+    line-height: 8rem;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #037b81;
+    font-size: 7rem;
+    letter-spacing: 0.1rem;
+    bottom: 0;
+    padding: 0;
+}
+
+#section-02 {
+    position: relative;
+    height: auto;
+}
+
+.content-2 {
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    max-width: 1170px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translateX(-50%);
+    position: relative;
+}
+
+.content-02 {
+    background: transparent;
+    width: 100%;
+    max-width: 1170px;
+    /* text-align: center; */
+}
+
+.content-02 .row-02 {
+    display: flex;
+    padding: 0 5rem;
+    text-transform: uppercase;
+    height: 7.5rem;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.content-02 .row-02 h1 {
+    color: #037b81;
+}
